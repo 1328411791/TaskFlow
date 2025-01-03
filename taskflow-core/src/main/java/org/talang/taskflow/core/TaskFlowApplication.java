@@ -1,7 +1,12 @@
 package org.talang.taskflow.core;
 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class TaskFlowApplication {
     public static void main(String[] args) {
-        System.out.println("Hello, TaskFlow!");
+        SpringApplication.run(TaskFlowApplication.class,args);
     }
 }
